@@ -5,7 +5,7 @@ const port = 5000
 const config = require('./config/key');
 const { auth } = require("./middleware/auth");
 
-const { User } = require("./models/User");
+const { User } = require("../models/User");
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 
